@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mon premier chat avec socket.io</title>
+    <script src="/socket.io/socket.io.js" type="text/javascript"></script>
+    <script src="/js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="/js/myChat.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body onload="start()">
+    <textarea readonly id="messageOutput"></textarea>
+    <form action="" id="messageForm">
+        <input id="userPseudo" autocomplete="off" placeholder="pseudo"/>
+        <input id="messageInput" autocomplete="off" placeholder="message"/>
+        <button id="sendMessage">envoyer</button>
+    </form>
+</body>
+
+</html>

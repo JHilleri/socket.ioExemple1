@@ -1,0 +1,35 @@
+#messageForm{
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+}
+
+#messageInput{
+    width: calc(100% - 21em);
+    margin-left: 1em;
+}
+
+#messageOutput{
+    display:block;
+    width: 100%;
+    height: calc(100% - 5em);
+}
+
+#sendMessage{
+    float: right;
+    width: 10em;
+    margin-right: 3em;
+}
+
+#userPseudo{
+    float: left;
+    width: 5em;
+}
+
+body{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+html, body{
+    height: 100%;
+}
